@@ -21,5 +21,18 @@ class DatabaseSeeder extends Seeder
             'email' => 'setiodarman@fic16.com',
             'password'=> Hash::make('12345678'),
         ]);
+
+    //data dummy for company
+    \App\Models\Company::create([
+        'name' => 'SMANSALOS',
+        'email'=> 'setiodarman@fic16.com',
+        'address'=> 'jl. Sukarno-Hatta 110 Losari, Cirebon',
+        'latitude'=> '-6.841753791428467',
+        'longitude'=> '108.80773849254601',
+        'radius_km'=> '0.5',
+        'time_in'=> '08:00',
+        'time_out'=> '17:00',
+
+    ]);
     }
 }
