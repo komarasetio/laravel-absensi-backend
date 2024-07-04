@@ -21,13 +21,11 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/login",
+					"raw": "http://localhost:8000/api/login",
 					"protocol": "http",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"localhost"
+
 					],
 					"port": "8000",
 					"path": [
@@ -52,13 +50,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/login",
+							"raw": "http://localhost:8000/api/login",
 							"protocol": "http",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"localhost"
 							],
 							"port": "8000",
 							"path": [
@@ -73,7 +68,7 @@
 					"header": [
 						{
 							"key": "Host",
-							"value": "127.0.0.1:8000"
+							"value": "localhost:8000"
 						},
 						{
 							"key": "Connection",

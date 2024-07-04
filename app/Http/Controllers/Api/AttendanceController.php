@@ -74,7 +74,7 @@ class AttendanceController extends Controller
 
         return response([
             'checkedin' => $attendance ? true : false,
-            //'checkedout' => $isCheckout ? true : false,
+            'checkedout' => $isCheckout ? true : false,
         ], 200);
     }
 
