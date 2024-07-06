@@ -39,3 +39,6 @@ Route::post('/update-fcm-token', [App\Http\Controllers\Api\AuthController::class
 
 //get attendance
 Route::get('/api-attendances', [App\Http\Controllers\Api\AttendanceController::class, 'index'])->middleware('auth:sanctum');
+
+//get attendance by date
+
